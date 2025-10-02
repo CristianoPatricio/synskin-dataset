@@ -70,7 +70,7 @@ git clone https://github.com/CristianoPatricio/synskin-dataset/
 Dataloader (PyTorch):
 
 ```bash
-python synskin_dataloader.py
+python utils/synskin_dataset.py
 ```
 
 ## 🙌 Citation
