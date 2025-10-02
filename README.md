@@ -9,12 +9,13 @@ The SynSkin dataset consists of 10,015 images, each annotated with six image-lev
 ## ⚡️ Highlights 🔥  
 - Multilabel color classification;
 - Border, lesion and color segmentation;
-- Assessing explainable models (e.g., concept-based explanations).
+- Suitable for concept-based explanations;
+- Intuitive assessment of visual explanations;
 
 ## 📊 Dataset Structure
-Number of samples: 10,015
-File format(s): .PNG
-Size: 738 MB
+- Number of samples: 10,015
+- File format(s): .PNG and .JPG
+- Size: 738 MB
 
 ### Images
 - Format: `.jpg`
@@ -26,10 +27,7 @@ Size: 738 MB
 - One mask per color per image
 - Naming convention: `<IMAGE_ID>_color_<COLOR>.png`
 
-### Metadata
-- `annotations_synskin_colors.csv`: Contains color image annotations
-- `synskin_{train,val,test}.csv`: Train/validation/test splits
-
+### Folder structure
 ```kotlin
 dataset/
 ├── images/
@@ -47,6 +45,10 @@ dataset/
 ```
 
 ## 🧾 Metadata
+
+- `annotations_synskin_colors.csv`: Contains color image annotations
+- `synskin_{train,val,test}.csv`: Train/validation/test splits
+  
 | Column | Description |
 |--------|-------------|
 | ID | Image ID  |
